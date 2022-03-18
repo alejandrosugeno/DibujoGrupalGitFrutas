@@ -1,6 +1,6 @@
 .citron {
     margin-top: 35em;
-    margin-left: 80em;
+    margin-left: 60em;
     width: 10em;
     height: 10em;
     border-radius: 70% 0 70% 0;
@@ -36,7 +36,7 @@
     border-radius: 50%;
     position: absolute;
     top: 36em;
-    left: 80em;
+    left: 60em;
   }
 
 .citron-left-eye::after {
@@ -58,7 +58,7 @@
     border-radius: 50%;
     position: absolute;
     top: 36em;
-    left: 85em;
+    left: 65em;
   }
 
 .citron-right-eye::after {
@@ -80,7 +80,13 @@
     border-left: 5px solid #675340; 
     position: absolute;
     top: 42em;
-    left: 84em;
+    left: 65em;
+  }
+
+  .sandiita{
+      top : 120px;
+      left: 500px;
+      position: absolute;
   }
 
   .sandia-left-eye {
@@ -286,7 +292,7 @@
 .banana {
     height: 400px;
     width: 400px;
-    top: 5px;
+    top: -700px;
     left: 350GITpx;
     position: relative;
   }
@@ -308,7 +314,7 @@
     top: -20px;
     left: -50px;
     border-top: 30px solid transparent;
-    border-right: 120px solid #ffffff;  
+    border-right: 120px solid #d4cc9f;  
     border-radius: 0 120px 120px 0%;
     position: absolute;
   }
@@ -435,6 +441,8 @@
     left: 250px;
 }
 .manzana{
+    top: -250px;
+    left: 0px;
   width: 300px;
   height: 300px;
   border-radius: 100%;
@@ -450,7 +458,7 @@
   background: wheat;
   border-radius: 50%;
   position: absolute;
-  top: 500px;
+  top: 210px;
   left: 1100px;
 }
 
@@ -472,7 +480,7 @@
   background: wheat;
   border-radius: 50%;
   position: absolute;
-  top: 500px;
+  top: 210px;
   left: 1200px;
 }
 
@@ -495,7 +503,7 @@
   border-left: 5px solid #000000; 
   position: absolute;
   left: 1200px;
-  top: 660px;
+  top: 200px;
 }
 .manzana-mouth2 {
   width: 30px;
@@ -506,13 +514,13 @@
   border-left: 5px solid #000000; 
   position: absolute;
   left: 1160px;
-  top: 660px;
+  top: 200px;
 }
 .sombrero{
     width: 210px;
     height: 160px;
     left: 1150px;
-    top: 300px;
+    top: 35px;
     border-radius: 1000% 1000% 0 0;
     position: absolute;
     color: black;
@@ -532,7 +540,7 @@
   width: 50px;
   height: 50px;
   left: 910px;
-  top: 100px;
+  top: -200px;
   border-radius: 50%;
   position: absolute;
   color:black;
@@ -552,6 +560,12 @@
   transform: rotate(-40deg);
   transform-origin: right 220px;
   }
+  .Cereza {
+    
+    top: -1020px;
+    left: -470px;
+    position: relative;
+  }
   .bigote::after{
   content: "";
   position: absolute;
@@ -565,7 +579,7 @@
   transform-origin: left 250px;
   }
   .Cherry{
-    top: 250px;
+    top: 380px;
     height:150px;
     width: 150px;
     border-radius: 50%;
@@ -575,7 +589,7 @@
     left: 750px;
 }
 .Cherry2{
-    top: 250px;
+    top: 380px;
     height:150px;
     width: 150px;
     border-radius: 50%;
@@ -591,7 +605,7 @@
     background: #FFFFFF;
     border-radius: 50%;
     position: absolute;
-    top: 250px;
+    top: 400px;
     left: 750px;
 }
 .Cherry_ojos_izquierda::after{
@@ -611,7 +625,7 @@
     background: #FFFFFF;
     border-radius: 50%;
     position: absolute;
-    top: 250px;
+    top: 400px;
     left: 820px;
 }
 .Cherry_ojos_derecha::after{
@@ -633,12 +647,12 @@
     border-left: 5px solid #675340; 
     position: absolute;
     left: 800px;
-    top: 320px;
+    top: 500px;
 }
 .Cherry_Rama{
     content: "";
     position: absolute;
-    left: 850px; top: 200px;
+    left: 850px; top: 340px;
     width: 210px; height: 40px;
     border-bottom: solid 20px #7a23009d;
     border-radius: 0 100% 0 100%;
@@ -650,8 +664,8 @@
     clear: both;
     position: relative;
     display: flex;
-    top: 25px;
-    left: 770px;
+    top: 200px;
+    left: 77px;
     width: 0;
     height: 0;
     background-color: #539e3d;
@@ -663,8 +677,8 @@
 #kiwi-sombrero{
   width:140px;
   height: 100px;   
- left: 250px;
- top: 40px;
+ left: 15px;
+ top: -10px;
  border-radius: 1000% 1000% 100% 100%;
  position: absolute;
  color: #020000fa;
@@ -686,8 +700,8 @@
   width: 120px;
   height: 105px;
   position: absolute;
-  left: 240px;
-  top: 130px;
+  left: 10px;
+  top: 80px;
   background: #17ff36;
 }
 #ojo1{
@@ -771,8 +785,14 @@
   left: 30px;
   top: -1px;
 }
+.naranjita {
+
+    top: 1020px;
+    left: 350px;
+    position: absolute;
+  }
 .naranja{
-    top: 200px;
+    top: 400px;
     height:150px;
     width: 150px;
     border-radius: 50%;
@@ -787,7 +807,7 @@
     background: #FFFFFF;
     border-radius: 50%;
     position: absolute;
-    top: 215px;
+    top: 420px;
     left: 15px;
 }
 .ojos_izquierda::after{
@@ -807,7 +827,7 @@
     background: #FFFFFF;
     border-radius: 50%;
     position: absolute;
-    top: 215px;
+    top: 420px;
     left: 80px;
 }
 .ojos_derecha::after{
@@ -829,7 +849,7 @@
     border-left: 5px solid #675340; 
     position: absolute;
     left: 60px;
-    top: 300px;
+    top: 500px;
 }
 .hoja::after{
     content: "";
@@ -838,7 +858,7 @@
 
     display: flex;
 
-    top: 150px;
+    top: 225px;
     left: 70px;
 
     width: 0;
@@ -857,7 +877,7 @@
 
     display: flex;
 
-    top: 105px;
+    top: 185px;
     left: 20px;
 
     width: 0;
@@ -869,6 +889,12 @@
     border-radius: 80% 0 70% 0;
     transform: rotate(75deg);
 }
+.UVAS {
+    top: -200px;
+    left: -400px;
+    position: relative;
+}
+
 .par1 {
     width: 30px;
     height: 30px;
