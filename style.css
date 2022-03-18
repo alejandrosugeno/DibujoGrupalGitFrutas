@@ -434,3 +434,133 @@
     top: 33px;
     left: 250px;
 }
+.manzana{
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  position: absolute;
+  color: red;
+  box-shadow: 
+  1100px 400px 0 0 currentColor;
+}
+.manzana-left-eye {
+  width: 90px;
+  height: 90px;
+  border: 5px solid black;      
+  background: wheat;
+  border-radius: 50%;
+  position: absolute;
+  top: 500px;
+  left: 1100px;
+}
+
+.manzana-left-eye::after {
+  content:"";
+  position: absolute;
+  border-radius: 50%;
+  background-color: #000000;
+  width: 35px;
+  height: 35px;
+  left: 30px;
+  top: 30px;
+}
+
+.manzana-right-eye {
+  width: 90px;
+  height: 90px;
+  border: 5px solid black;      
+  background: wheat;
+  border-radius: 50%;
+  position: absolute;
+  top: 500px;
+  left: 1200px;
+}
+
+.manzana-right-eye::after {
+  content:"";
+  position: absolute;
+  border-radius: 50%;
+  background-color: #000000;
+  width: 35px;
+  height: 35px;
+  left: 30px;
+  top: 30px;
+}
+.manzana-mouth {
+  width: 30px;
+  height: 20px;
+  border-radius: 0 0 5em 5em;
+  border-bottom: 5px solid #000000; 
+  border-right: 5px solid #000000; 
+  border-left: 5px solid #000000; 
+  position: absolute;
+  left: 1200px;
+  top: 660px;
+}
+.manzana-mouth2 {
+  width: 30px;
+  height: 20px;
+  border-radius: 0 0 5em 5em;
+  border-bottom: 5px solid #000000; 
+  border-right: 5px solid #000000; 
+  border-left: 5px solid #000000; 
+  position: absolute;
+  left: 1160px;
+  top: 660px;
+}
+.sombrero{
+    width: 210px;
+    height: 160px;
+    left: 1150px;
+    top: 300px;
+    border-radius: 1000% 1000% 0 0;
+    position: absolute;
+    color: black;
+    background-color: black;
+}
+.sombrero::before{
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 150px;
+    width: 300px;
+    height: 20px;
+    background-color: black;
+    border-radius: 100px;
+}
+.bigote{
+  width: 50px;
+  height: 50px;
+  left: 910px;
+  top: 100px;
+  border-radius: 50%;
+  position: absolute;
+  color:black;
+  box-shadow: 250px 500px 0 0 currentColor,
+              300px 500px 0 0 currentColor;
+  
+  }
+  .bigote::before{
+  content: "";
+  position: absolute;
+  left: 120px;
+  top: 350px;
+  width: 200px;
+  height: 130px;
+  border-bottom: solid 50px currentColor;
+  border-radius: 0 0 0 100%;
+  transform: rotate(-40deg);
+  transform-origin: right 220px;
+  }
+  .bigote::after{
+  content: "";
+  position: absolute;
+  left: 300px;
+  top: 300px;
+  width: 200px;
+  height: 190px;
+  border-bottom: solid 50px currentColor;
+  border-radius: 0 0 100% 0;
+  transform: rotate(40deg);
+  transform-origin: left 250px;
+  }
