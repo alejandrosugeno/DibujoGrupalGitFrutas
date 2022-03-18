@@ -869,3 +869,300 @@
     border-radius: 80% 0 70% 0;
     transform: rotate(75deg);
 }
+.par1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1000px 100px 0 0 currentColor,
+        1020px 100px 0 0 currentColor;
+    perspective-origin: right
+}
+
+.par2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1040px 100px 0 0 currentColor,
+        1060px 100px 0 0 currentColor;
+
+}
+.par3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1080px 100px 0 0 currentColor,
+        1100px 100px 0 0 currentColor;
+}
+.par4 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1120px 100px 0 0 currentColor,
+        1140px 100px 0 0 currentColor;
+}
+.par5 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1010px 120px 0 0 currentColor,
+        1030px 120px 0 0 currentColor;
+}
+.par6 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1050px 120px 0 0 currentColor,
+        1070px 120px 0 0 currentColor;
+}
+.par7 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1090px 120px 0 0 currentColor,
+        1110px 120px 0 0 currentColor;
+}
+.par8 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1130px 120px 0 0 currentColor;
+}
+.par9 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1020px 140px 0 0 currentColor,
+        1040px 140px 0 0 currentColor;
+}
+.par10 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1060px 140px 0 0 currentColor,
+        1080px 140px 0 0 currentColor;
+}
+.par11 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1100px 140px 0 0 currentColor,
+        1120px 140px 0 0 currentColor;
+}
+.par12 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1030px 160px 0 0 currentColor,
+        1050px 160px 0 0 currentColor;
+}
+.par13 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1070px 160px 0 0 currentColor,
+        1090px 160px 0 0 currentColor;
+}
+.par14 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1110px 160px 0 0 currentColor;
+}
+.par15 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1040px 180px 0 0 currentColor,
+        1060px 180px 0 0 currentColor;
+}
+.par16 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1080px 180px 0 0 currentColor,
+        1100px 180px 0 0 currentColor;
+}
+.par17 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1050px 200px 0 0 currentColor,
+        1070px 200px 0 0 currentColor;
+}
+.par18 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1090px 200px 0 0 currentColor;
+}
+.par19 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1060px 220px 0 0 currentColor,
+        1080px 220px 0 0 currentColor;
+}
+.par20 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    position: absolute;
+    color: purple;
+    box-shadow: 
+        1070px 220px 0 0 currentColor;
+}
+
+
+
+
+.ojos_izquierdauva{
+    width: 35px;
+    height: 35px;
+    border: 5px solid #fff23f;
+    background: #FFFFFF;
+    border-radius: 50%;
+    position:absolute;
+    top: 240px;
+    left: 1040px;
+    z-index: 1;
+}
+.ojos_izquierdauva::after{
+    content:"";
+    position: absolute;
+    border-radius: 50%;
+    background-color: #000000;
+    width: 17px;
+    height: 17px;
+    left: 10px;
+    top: 10px;
+}
+.ojos_derechauva{
+    width: 35px;
+    height: 35px;
+    border: 5px solid #e6e619;
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 240px;
+    left: 1090px;
+    z-index: 1;
+}
+.ojos_derechauva::after{
+    content:"";
+    position: absolute;
+    border-radius: 50%;
+    background-color: #000000;
+    width: 17px;
+    height: 17px;
+    left: 10px;
+    top: 10px;
+}
+.bocauva{
+    width: 30px;
+    height: 20px;
+    border-radius: 0 0 5em 5em;
+    border-bottom: 5px solid black; 
+    border-right: 5px solid black; 
+    border-left: 5px solid black; 
+    position: absolute;
+    top: 290px;
+    left: 1070px;
+    z-index: 1;
+}
+.hojauva::after{
+    content: "";
+    clear: both;
+    position: relative;
+
+    display: flex;
+
+    top: 160px;
+    left: 1080px;
+    z-index: 1;
+
+    width: 0;
+    height: 0;
+
+    background-color: #539e3d;
+    border-bottom: 3em solid rgb(0, 0, 0, 0.3);
+    border-left: 3em solid transparent;
+    border-radius: 80% 0 70% 0;
+    transform: rotate(10deg);
+}
+.hoja2uva::after{
+    content: "";
+    clear: both;
+    position: relative;
+
+    display: flex;
+
+    top: 110px;
+    left: 1030px;
+    z-index: 1;
+
+    width: 0;
+    height: 0;
+
+    background-color: #539e3d;
+    border-bottom: 3em solid rgb(0, 0, 0, 0.3);
+    border-left: 3em solid transparent;
+    border-radius: 80% 0 70% 0;
+    transform: rotate(75deg);
+}
