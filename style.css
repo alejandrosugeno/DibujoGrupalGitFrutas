@@ -564,3 +564,99 @@
   transform: rotate(40deg);
   transform-origin: left 250px;
   }
+  .Cherry{
+    top: 250px;
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    color: rgb(206, 57, 64);
+    background-color: currentColor;
+    left: 750px;
+}
+.Cherry2{
+    top: 250px;
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    color: rgb(206, 57, 64);
+    background-color: currentColor;
+    left: 720px;
+}
+.Cherry_ojos_izquierda{
+    width: 60px;
+    height: 60px;
+    border: 5px solid #b55166;
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    left: 750px;
+}
+.Cherry_ojos_izquierda::after{
+    content:"";
+    position: absolute;
+    border-radius: 50%;
+    background-color: #000000;
+    width: 17px;
+    height: 17px;
+    left: 15px;
+    top: 15px;
+}
+.Cherry_ojos_derecha{
+    width: 60px;
+    height: 60px;
+    border: 5px solid #b55166;
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    left: 820px;
+}
+.Cherry_ojos_derecha::after{
+    content:"";
+    position: absolute;
+    border-radius: 50%;
+    background-color: #000000;
+    width: 17px;
+    height: 17px;
+    left: 15px;
+    top: 15px;
+}
+.Cherry_boca{
+    width: 30px;
+    height: 20px;
+    border-radius: 0 0 5em 5em;
+    border-bottom: 5px solid #675340; 
+    border-right: 5px solid #675340; 
+    border-left: 5px solid #675340; 
+    position: absolute;
+    left: 800px;
+    top: 320px;
+}
+.Cherry_Rama{
+    content: "";
+    position: absolute;
+    left: 850px; top: 200px;
+    width: 210px; height: 40px;
+    border-bottom: solid 20px #7a23009d;
+    border-radius: 0 100% 0 100%;
+    transform: rotate(240deg);
+    transform-origin: left 40px;
+}
+.Cherry_hoja{
+    content: "";
+    clear: both;
+    position: relative;
+    display: flex;
+    top: 25px;
+    left: 770px;
+    width: 0;
+    height: 0;
+    background-color: #539e3d;
+    border-bottom: 3em solid #0000004d;
+    border-left: 3em solid transparent;
+    border-radius: 80% 0 70% 0;
+    transform: rotate(10deg);
+}
