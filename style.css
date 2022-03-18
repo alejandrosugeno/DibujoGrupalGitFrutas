@@ -82,3 +82,204 @@
     top: 42em;
     left: 84em;
   }
+
+  .sandia-left-eye {
+    width: 55px;
+    height: 55px;
+    border: 5px solid #201008;    
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+  }
+
+  .sandia-left-eye::after {
+    content:"";
+    position: absolute;
+    border-radius: 50%;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    left: 12px;
+    top: 12px;
+  }
+
+  .sandia-right-eye {
+    width: 55px;
+    height: 55px;
+    border: 5px solid #160c08;      
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 180px;
+  }
+
+  .sandia-right-eye::after {
+    content:"";
+    position: absolute;
+    border-radius: 50%;
+    background-color:red;
+    width: 30px;
+    height: 30px;
+    left: 12px;
+    top: 12px;
+  }
+  
+  .medio-circulo{
+    width: 310px;
+    height: 140px;
+    background: red;
+    border-radius:  0  0 120px 120px;
+    position:absolute;
+    left: 13px;
+    top: 9px;
+ }
+ .medio-circulo2{
+    width: 340px;
+    height: 160px;
+    background: rgb(40, 82, 24);
+    border-radius:  0  0 130px 130px;
+    position:relative;
+    top: 380px;
+    left: 30px;
+   
+ }
+ .sandia-boca{
+    width: 30px;
+    height: 20px;
+    border-radius: 0 0 5em 5em;
+    border-bottom: 5px solid #474067; 
+    border-right: 5px solid #4a4067; 
+    border-left: 5px solid #444067; 
+    position: absolute;
+    left: 130px;
+    top: 100px;
+}
+.circulo{
+    width: 10px;
+    height: 10px;
+    background:black;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.circulo2{
+    width: 10px;
+    height: 10px;
+    background:black;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+.circulo3{
+    width: 10px;
+    height: 10px;
+    background:black;
+    border-radius: 50%;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+.circulo4{
+    width: 10px;
+    height: 10px;
+    background:black;
+    border-radius: 50%;
+    position: absolute;
+    left: 65px;
+    top: 90px;
+}
+.circulo5{
+    width: 10px;
+    height: 10px;
+    background:black;
+    border-radius: 50%;
+    position: absolute;
+    left: 260px;
+    top: 100px;
+}
+.circulo6{
+    width: 10px;
+    height: 10px;
+    background:black;
+    border-radius: 50%;
+    position: absolute;
+    left: 90px;
+    top: 20px;
+}
+.circulo7{
+    width: 10px;
+    height: 10px;
+    background:black;
+    border-radius: 50%;
+    position: absolute;
+    left: 120px;
+    top: 100px;
+}
+.circulo8{
+    width: 10px;
+    height: 10px;
+    background:black;
+    border-radius: 50%;
+    position: absolute;
+    left:90px;
+    top: 20px;
+}
+.circulo9{
+    width: 10px;
+    height: 10px;
+    background:black;
+    border-radius: 50%;
+    position: absolute;
+    left: 160px;
+    top: 30px;
+}
+.circulo10{
+    width: 10px;
+    height: 10px;
+    background:black;
+    border-radius: 50%;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+}
+.circulo11{
+    width: 10px;
+    height: 10px;
+    background:black;
+    border-radius: 50%;
+    position: absolute;
+    left: 180px;
+    top: 120px;
+}
+.circulo12{
+    width: 10px;
+    height: 10px;
+    background:black;
+    border-radius: 50%;
+    position: absolute;
+    left: 240px;
+    top: 35px;
+}
+.circulo13{
+    width: 10px;
+    height: 10px;
+    background:black;
+    border-radius: 50%;
+    position: absolute;
+    left: 280px;
+    top: 60px;
+}
+.circulo14{
+    width: 10px;
+    height: 10px;
+    background:black;
+    border-radius: 50%;
+    position: absolute;
+    left: 300px;
+    top: 220px;
+}
